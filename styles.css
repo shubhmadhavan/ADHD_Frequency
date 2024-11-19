@@ -113,6 +113,9 @@ margin-left:-12px;
 
 
 @media only screen and (max-width: 1210px) { /* Mobile Hotfix */
+  body{
+    margin-top:-60px;
+  }
   #audioControls {
     display: inline-block;
     padding: 20px;
