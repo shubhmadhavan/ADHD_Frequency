@@ -1,0 +1,112 @@
+﻿/* Style for the entire page */
+body {
+
+    background-color: #f3ecf3; /* Lavender background */
+    color: #333; /* Dark text for readability */
+    font-family: 'Arial', sans-serif; /* Clean and modern font */
+    text-align: center; /* Center align content */
+    margin: 0;
+    margin-top:-40px;
+    padding: 0;
+  }
+  
+  /* Style for the controls container */
+  #audioControls {
+    background-color: #f3ecf3; /* White background for contrast */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    display: inline-block;
+    padding: 20px;
+    margin-top: 50px;
+    width: 90%;
+    max-width: 450px;
+  }
+  
+  /* Input and button styling */
+  input[type="button"], 
+  input[type="text"], 
+  input[type="range"] {
+    font-size: 14px;
+    margin: 10px 5px ;
+    padding: 8px 12px;
+    color: #615686;
+    border: 1px solid #ccc; /* Subtle border */
+    border-radius: 5px; /* Rounded edges */
+    transition: all 0.3s ease; /* Smooth hover transition */
+  }
+  input[type="text"]{
+    background-color: #f3ecf3; 
+    width:20px;
+  } 
+  input[type="button"]{
+    background-color: #f3ecf3;
+    width:94px;
+  } 
+  
+  .freqInput{
+    width:32px !important;
+  }
+
+  input[type="range"] {
+margin-left:-12px;
+  }
+
+  /* Button hover effect */
+  input[type="button"]:hover {
+    background-color: #e2dce2; /* Slight lavender tint */
+    cursor: pointer;
+  }
+  
+  /* Styling for range inputs */
+  input[type="range"] {
+    appearance: none; /* Remove default styles */
+    width: 100%; /* Full width within container */
+    background: #e5d3e5; /* Track background */
+    height: 5px; /* Thin track */
+    border-radius: 5px; /* Round track edges */
+    outline: none;
+  }
+  
+  /* Range slider thumb */
+  input[type="range"]::-webkit-slider-thumb {
+    color: #6f6398;
+    appearance: none; /* Remove default styles */
+    width: 15px;
+    height: 15px;
+    background: #8e7cc3; /* Lavender thumb color */
+    border-radius: 50%; /* Circular thumb */
+    cursor: pointer;
+    border: 2px solid #fff; /* White border for contrast */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+  }
+  
+  input[type="range"]::-moz-range-thumb {
+    width: 15px;
+    height: 15px;
+    color: #6f6398;
+    background: #8e7cc3; /* Lavender thumb color */
+    border-radius: 50%; /* Circular thumb */
+    cursor: pointer;
+    border: 2px solid #fff; /* White border for contrast */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+  }
+  
+  /* Label styling */
+  label {
+    font-size: 16px;
+    color: #727272; /* Subtle text color */
+    margin-bottom: 5px;
+    display: inline-block;
+  }
+  
+  /* Play/Stop button specific styling */
+  #toggle {
+    background-color: #8e7cc3; /* Lavender button */
+    color: #fff; /* White text */
+    border: none;
+  }
+  
+  #toggle:hover {
+    background-color: #7762a3; /* Slightly darker lavender */
+  }
+  
