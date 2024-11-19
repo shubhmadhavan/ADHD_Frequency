@@ -109,4 +109,15 @@ margin-left:-12px;
   #toggle:hover {
     background-color: #7762a3; /* Slightly darker lavender */
   }
-  
+
+
+
+@media only screen and (max-width: 1210px) { /* Mobile Hotfix */
+  #audioControls {
+    display: inline-block;
+    padding: 20px;
+    margin-top: 50px;
+    width: 85%;
+    max-width: 450px;
+    zoom:230%;
+  }
