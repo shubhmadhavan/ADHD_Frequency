@@ -1,13 +1,14 @@
 ﻿/* Style for the entire page */
-body {
-
-    background-color: #f3ecf3; /* Lavender background */
+html {
+    background: linear-gradient(#382A49, #382A49, #68518C, #D1BAD1); 
+    
     color: #333; /* Dark text for readability */
     font-family: 'Arial', sans-serif; /* Clean and modern font */
     text-align: center; /* Center align content */
     margin: 0;
     margin-top:-40px;
     padding: 0;
+    height:103.7%;
   }
   
   /* Style for the controls container */
@@ -17,14 +18,14 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
     display: inline-block;
     padding: 20px;
-    margin-top: 50px;
+    margin-top:72px;
     width: 90%;
     max-width: 450px;
   }
   
   /* Input and button styling */
   input[type="button"], 
-  input[type="text"], 
+  input[type="text"], 							
   input[type="range"] {
     font-size: 14px;
     margin: 10px 5px ;
@@ -109,16 +110,14 @@ margin-left:-12px;
   #toggle:hover {
     background-color: #7762a3; /* Slightly darker lavender */
   }
-
-
-
+  
 @media only screen and (max-width: 1210px) { /* Mobile Hotfix */
   body{
     margin-top:-60px;
   }
- input[type="button"]{
+  input[type="button"]{
     width:110px;
- }    
+ }   
   #audioControls {
     display: inline-block;
     padding: 20px;
