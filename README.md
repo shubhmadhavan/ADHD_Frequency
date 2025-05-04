@@ -4,8 +4,9 @@ A simple tool to play frequencies of choice to help individuals with ADHD. Runs 
 [Link](https://shubhmadhavan.github.io/ADHD_Frequency/)
  
 
+
 ## Overview
-<img src="https://github.com/user-attachments/assets/559661ad-9d12-42bf-bd7f-8b87921978f2" height="440" />    
+<img src="https://github.com/user-attachments/assets/e022b164-0d32-4063-a182-acc7276870d1" height="440" />    
 
 - Frequency Adjuster
 - Volume Adjuster
